@@ -1,0 +1,14 @@
+# secrets — never commit real values
+.env
+*.env
+!.env.example
+
+# TLS material
+*.pem
+*.key
+*.crt
+acme/
+
+# local overrides
+local/
+*.local.conf
